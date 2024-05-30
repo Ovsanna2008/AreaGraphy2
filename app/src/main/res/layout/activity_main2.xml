@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#d2b7e5"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/changa_one"
+        android:textColor="@color/black"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/gmail"
+        android:fontFamily="@font/changa_one"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#7b2cbf"
+        android:fontFamily="@font/changa_one"
+        android:onClick="signIn"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:cornerRadius="13dp" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in_button"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/error"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-28dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#7b2cbf"
+        android:fontFamily="@font/changa_one"
+        android:onClick="Register"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:cornerRadius="13dp" />
+
+    <Button
+        android:id="@+id/guest_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#7b2cbf"
+        android:fontFamily="@font/changa_one"
+        android:onClick="Guest"
+        android:text="Guest"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:cornerRadius="13dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="252dp"
+        android:layout_height="242dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="49dp"
+        app:srcCompat="@drawable/registration" />
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2b7e5"
+    tools:context=".stages_history">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        app:srcCompat="@drawable/geographyahistory" />
+
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="-83dp"
+        android:layout_marginBottom="112dp"
+        android:fontFamily="@font/changa_one"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="History"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="175dp"
+        android:backgroundTint="#7b2cbf"
+        android:text="lesson1"
+        android:textSize="20dp"
+        app:cornerRadius="13dp"
+        android:onClick="lesson1_history"/>
+
+    <Button
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="177dp"
+        android:backgroundTint="#7b2cbf"
+        android:text="lesson2"
+        android:textSize="20dp"
+        app:cornerRadius="13dp"
+        android:onClick="lesson2_history"
+        />
+
+    <Button
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="65dp"
+        android:backgroundTint="#7b2cbf"
+        android:text="lesson3"
+        android:textSize="20dp"
+        app:cornerRadius="13dp"
+        android:onClick="lesson3_activity"/>
+
+    <Button
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="66dp"
+        android:backgroundTint="#7b2cbf"
+        android:text="lesson4"
+        android:textSize="20dp"
+        app:cornerRadius="13dp"
+        android:onClick="lesson4_history"/>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2b7e5"
+    tools:context=".stages_surface">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="234dp"
+        app:srcCompat="@drawable/sur" />
+
+    <TextView
+        android:id="@+id/total_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:fontFamily="@font/changa_one"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="Earth's Surface"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-250dp"
+        android:layout_marginBottom="0sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="20sp"
+            android:backgroundTint="#7b2cbf"
+            android:onClick="lesson1_surface"
+            android:text="lesson1"
+            android:textSize="20dp"
+            app:cornerRadius="13dp" />
+
+        <Button
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:backgroundTint="#7b2cbf"
+            android:onClick="lesson2_surface"
+            android:text="lesson2"
+            android:textSize="20dp"
+            app:cornerRadius="13dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="-150dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:backgroundTint="#7b2cbf"
+            android:onClick="lesson3_surface"
+            android:text="lesson3"
+            android:textSize="20dp"
+            app:cornerRadius="13dp" />
+
+        <Button
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:backgroundTint="#7b2cbf"
+            android:onClick="lesson4_surface"
+            android:text="lesson4"
+            android:textSize="20dp"
+            app:cornerRadius="13dp" />
+    </LinearLayout>
+
+</RelativeLayout>

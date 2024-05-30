@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79478874384",
+    "project_id": "login-register-firbase-ef502",
+    "storage_bucket": "login-register-firbase-ef502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79478874384:android:3c9ddfffcff497e0140595",
+        "android_client_info": {
+          "package_name": "com.example.areagraphy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChZBe_Y9YzADYRFkyNh1u6UQ3H4ZopPf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

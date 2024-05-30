@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_play" type="id" />
+    <item name="btn_setting" type="id" />
+    <item name="btn_exit" type="id" />
+    <item name="guestmodeBtn" type="id" />
+    <item name="progressBar" type="id" />
+    <item name="sign_out_button" type="id" />
+</resources>

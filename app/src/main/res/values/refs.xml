@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="background_btn_choose_color" />
+    <drawable name="background_btn_erreur" />
+    <drawable name="background_btn_correct" />
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2b7e5">
+
+
+    <TextView
+        android:id="@+id/first_lives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1278dp"
+        android:fontFamily="@font/changa_one"
+        android:text="@string/areagraphy"
+        android:textColor="@color/black"
+        android:textSize="130dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="900sp"
+        android:layout_height="900sp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/globe" />
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="235dp"
+        android:onClick="Login"
+        android:text="Start"
+        android:textSize="50dp"
+        app:cornerRadius="13dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="560dp"
+        android:layout_marginBottom="79dp"
+        android:onClick="AboutGame"
+        android:text="About"
+        android:textSize="50dp"
+        app:cornerRadius="13dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

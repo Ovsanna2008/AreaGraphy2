@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2b7e5"
+    tools:context=".stages_crust">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:fontFamily="@font/changa_one"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="Earth's Crust"
+        android:textColor="@color/black"
+        android:textSize="100dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView12"
+        android:layout_marginTop="-550dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#7b2cbf"
+        android:onClick="lesson1_crust"
+        android:text="lesson1"
+        android:textSize="50dp"
+        app:cornerRadius="13dp" />
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#7b2cbf"
+        android:onClick="lesson2_crust"
+        android:text="lesson2"
+        android:textSize="50dp"
+        app:cornerRadius="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView12"
+        android:layout_marginTop="-300dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#7b2cbf"
+        android:onClick="lesson3_crust"
+        android:text="lesson3"
+        android:textSize="50dp"
+        app:cornerRadius="13dp" />
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_margin="10sp"
+        android:backgroundTint="#7b2cbf"
+        android:onClick="lesson4_crust"
+        android:text="lesson4"
+        android:textSize="50dp"
+        app:cornerRadius="13dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="745dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="590dp"
+        app:srcCompat="@drawable/crust" />
+
+</RelativeLayout>
